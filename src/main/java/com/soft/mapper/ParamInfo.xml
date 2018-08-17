@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.soft.mapper.ParamInfoMapper">
+
+	 <select id="getParamParent"  resultType="com.soft.entity.Tblparam">
+		select * from tblparam   where pid=0 
+	</select>
+	<select id="getParamChild"  resultType="com.soft.entity.Tblparam" parameterType="java.lang.Long">
+		select * from tblparam   where pid=#{parentId} 
+	</select>
+
+</mapper>

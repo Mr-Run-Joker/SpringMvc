@@ -1,0 +1,44 @@
+.navbar-brand{
+  background-image: url(../img/logo.jpg);
+  width: 50px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.side-bar .list-group-item{
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.side-bar .list-group-item .active{
+  background-color: #2bbb7e;
+}
+.side-bar-card{
+background-color: rgba(0,0,0,0.05);
+  margin-top: 15px;
+  padding: 10px 0;
+}
+.side-bar-card.one{
+  padding-top: 20px;
+padding-bottom: 20px;
+}
+ .container-small{
+  max-width: 100%;
+}
+
+.btn-primary{
+  background-color: #2bbb7e;
+  border-color: #0e9059;
+}
+.btn-primary:hover{
+  background-color: #44eca5;
+  border-color: #0e9059;
+}
+.thead.tr-background{
+	margin:0;
+  background-color: #6cdccd;
+}
+.main-body{
+	max-width: 80%
+}
+
